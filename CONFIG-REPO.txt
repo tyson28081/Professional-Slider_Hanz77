@@ -1,6 +1,6 @@
 
  1. DESDE LA MISMA PAGINA DE GIT-HUB
- --------------------------------
+ -----------------------------------
 
 	> CREAR REPOSITORIO
 
@@ -39,11 +39,18 @@ Esto es un Slider profesional en un ámbito funcional, tiene sus botones de sigu
 		git branch Develop
 		git log --oneline
 		git checkout Develop
+			copiamos todo el contenido de la carpeta SLIDER PROFESIONAL
+		git add .
+		git commit -m "Todos los ficheros del Proyecto SLIDER han sido añadidos al repositorio."
+		git push origin Develop
+		git checkout master
+		git merge Develop
+		git push origin master
+		git checkout Develop
 
 	COMMITS
 		1.	Initial commit (Por Defecto)
 		2.	Todos los ficheros del Proyecto SLIDER han sido añadidos al repositorio.
-		3.	Iconos Fuentes de la pagina ICO MOON.
 
 	NOTAS:
 		Nose pueden agregar archivos comprimidos (ZIP)
