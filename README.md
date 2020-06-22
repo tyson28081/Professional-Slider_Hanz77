@@ -4,11 +4,11 @@ Y por ultimo debo agregar que cuando se de PAUSE al Slider, habrá un tiempo cor
 
 tyson_77newday@hotmail.com
 
-+51 970967059    Whatsapp
++51 970967059    whatsapp
 
 Ritter77     	don't speack english
 
-Otros proyectos:
+Otros Proyectos:
 	http://www.colinaazul.tk/
 
 
