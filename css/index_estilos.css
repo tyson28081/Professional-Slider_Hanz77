@@ -1,0 +1,163 @@
+* {
+	/* NO AGREGUES NUNCA EL FONT-SIZE:15PX PORQUE LES DA UN TAMAÑO EXTRA A LOS DIVS */
+	/* TAMPOCO AGREGUES LA PROPIEDAD TRANSITION*/
+	padding    : 0;
+	margin     : 0;
+	/* SAN SERIF (palo seco sin remates)
+	   SERIF (letra con remates o SERIFAS)*/
+	/* FUENTE POR DEFECTO -- Tambien debes declaralas en todas las propiedades "" font-family ""
+	   de lo contrario el navegador renderiza la fuente con la tipografia "Times New Roman" */   
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+html {
+	width: 100%;
+	height: auto;
+	position: static;
+}
+
+body{
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	height: auto;
+	position: static;
+	/* EL COLOR POR DEFECTO DEL BODY DE UNA PAGINA WEB ES #FFF */
+	background-color: #fff;
+
+	background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+/******************* VARIABLES CSS ********************/
+:root{
+
+	--PlayPause-right-elms-slider:15px;
+}
+
+.contenedor-header{
+	width: 100%;
+    height: auto;
+    position: relative;
+	margin-top: 20px;
+
+    border: solid 4px coral;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+/********************** PROYECTO SLIDER DE IMAGENES ***********************/
+
+.contenedor-slider{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slider_images-show{
+	width: 100%;
+	max-width: 800px;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+
+.images-slider{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/*********************** PROYECTO SLIDER DE IMAGENES ***********************/
+
+.imagen-anterior, .siguiente-imagen{
+	width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+
+    position: absolute;
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0.29);
+	
+	/* PARA NO SELECCIONAR ELEMENTOS */
+	user-select: none; 
+
+    transition: all 0.5s ease;
+}
+
+#siguiente-imagen{
+	right: 0;
+}
+
+#imagen-anterior:hover, #siguiente-imagen:hover{
+	background: rgb(255, 153, 0);
+}
+
+/*********************** PROYECTO BARRA DE PROGRESO ***********************/
+
+.Bar-grey{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+ 	background-color: #dddddd75;
+}
+
+.Bar-Progress{
+	width: 0;
+  	height: 8.5px;
+  	background-color: #4caf50b5;
+}
+
+/*********************** PROYECTO BARRA DE PROGRESO ***********************/
+
+.span-icons{
+	font-size: 30px;
+    bottom: 5px;
+	right: var(--PlayPause-right-elms-slider);
+	color: #ffffffc7;
+
+    position: absolute;
+    cursor: pointer;
+
+    transition: all 0.5s ease;
+}
+
+#autoplay-icon{
+	margin-right: 33px;		/* Tamaño del "Span-Icon" + 3px */
+	color: rgba(167, 24, 24, 0.95);
+}
+
+.contenedor-middle{
+	width: 100%;
+    height: 270px;
+    position: relative;
+    
+    border: solid 4px gold;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-footer{
+	width: 100%;
+    height: 270px;
+    position: relative;
+    
+    border: solid 4px firebrick;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

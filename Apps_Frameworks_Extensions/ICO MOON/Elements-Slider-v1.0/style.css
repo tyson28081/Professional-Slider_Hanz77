@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Elements-Slider';
+  src:  url('fonts/Elements-Slider.eot?gt7a6r');
+  src:  url('fonts/Elements-Slider.eot?gt7a6r#iefix') format('embedded-opentype'),
+    url('fonts/Elements-Slider.ttf?gt7a6r') format('truetype'),
+    url('fonts/Elements-Slider.woff?gt7a6r') format('woff'),
+    url('fonts/Elements-Slider.svg?gt7a6r#Elements-Slider') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Elements-Slider' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-autoplay:before {
+  content: "\ea15";
+}
+.icon-pause:before {
+  content: "\ea16";
+}

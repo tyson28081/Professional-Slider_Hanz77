@@ -1,0 +1,64 @@
+
+ INSTRUCCIONES
+
+	- https://icomoon.io/app/#/select
+	- Seleccionar los ICONOS FUENTES que nesecitas con la herramienta "SELECT"
+	- Luego Editar los iconos fuentes seleccionados con la herramienta "EDIT"
+
+		quitar check:	Grid 16
+
+		LA IMAGEN DEBE SCALAR TODO EL CUADRO COMPLETO LO TANTO QUE SE PUEDA, SI DEJA
+		ESPACIOS HORIZONTAL O VERTICAL NO IMPORTA, SI POR UN LADO RELLENA EL CUADRO.
+		
+			herramienta: SCALE
+				clic: FIT TO CANVAS
+
+		Tags:		dejalo por defecto sino hay nada, escribe tus palbras claves
+		Names:		dejalo por defecto de lo contrario dale un nombre apropiado
+
+	- Dar "GENERATE FONT F"
+	- En esta parte puedes volver ah renonbrar dejar los nombres por DEFECTO
+	
+		PREFERENCES
+
+			FONT NAME: Dar un nombre a la FUENTE DE ICONOS, un caso "Elements-Slider"
+			CLASS PREFIX:	icon-
+			check: 		SUPORT IE 8
+			opcion:		USE ATTRIBUTE SELECTORS
+			Em Square Height (power of 2)		1024
+			Baseline Height (%Em)			6.25
+			Whitespace Width (%Em)			50
+
+			EL RESTO POR DEFECTO
+
+	- Dar "DOWNLOAD" y se descargara un archivo ZIP
+	- Extraer la carpeta "fonts" y el archivo CSS "style.css"
+
+	- Mover la carpeta "fonts" en la carpeta de iconos "ICONS"
+		luego renombrar la carpeta "fonts" a "icon-fonts"
+
+	- Mover el archivo "style.css" a la carpeta CSS de la pagina
+		luego renombrar el archivo "style.css" a "icons-style.css"
+				
+
+	- Abrir el archivo "index.html" con el editor SUBLIME 3
+		e importar en la cabecera el archivo "icons-style.css"
+		
+		<head>		
+			<link rel="stylesheet" type="text/css" href="css/icons-style.css"/>
+		</head>
+
+	- Luego abrir el archivo "icons-style.css" con el mismo editor de texo SUBLIME 3
+		y modificar solamente las CARPETAS de rutas
+
+		'../icons/icon-fonts/Elements-Slider.eot?gt7a6r'
+		'../icons/icon-fonts/Elements-Slider.eot?gt7a6r#iefix'
+		'../icons/icon-fonts/Elements-Slider.ttf?gt7a6r'
+		'../icons/icon-fonts/Elements-Slider.woff?gt7a6r'
+		'../icons/icon-fonts/Elements-Slider.svg?gt7a6r#Elements-Slider'
+
+	- LISTO ES TODO GRACIAS PeterHanz77...
+
+		
+	
+				

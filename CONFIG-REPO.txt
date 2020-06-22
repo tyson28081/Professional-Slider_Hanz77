@@ -1,0 +1,49 @@
+
+ 1. DESDE LA MISMA PAGINA DE GIT-HUB
+ --------------------------------
+
+	> CREAR REPOSITORIO
+
+	Owner		tyson28081
+	Name		Professional-Slider_Hanz77
+
+	Description
+	
+Esto es un Slider profesional en un ámbito funcional, tiene sus botones de siguiente y atras, botones de de Play y Pause, una barra de progreso que funciona con un contador, también están los métodos "mouseenter" y "mouseleave" en las imágenes del Slider, igualmente están establecidas los métodos "blur", "focus" y "mouseenter" en la misma pagina que trabajara junto con el comportamiento del Slider. Y por ultimo debo agregar que cuando se de PAUSE al Slider, habrá un tiempo corriendo externo que cuando llegue a un limite el Slider volverá a iniciar.
+
+	Change		PUBLIC
+	chek		Initialize this repository with a README
+	Add.gitignore	JAVA
+	Add a license	GNU General Public License v3.0
+
+	CREATE REPOSITORY
+
+	"CLONE OR DOWNLOAD"
+		Copiar el link por ejemplo: "https://github.com/tyson28081/Professional-Slider_Hanz77.git"
+
+ --------------------------------------------------------------------------------------------------------
+
+ 2. DESDE LA PC LOCAL
+ --------------------
+
+	- Crear una carpeta GENERAL DE REPOS GIT-HUB
+		por ejemplo: "WEB PROYECTS"
+	- Abrir el terminal GIT BASH desde "WEB PROYECTS"
+	- CLONAR EL REPO con el comando:
+		git clone https://github.com/tyson28081/Professional-Slider_Hanz77.git
+
+	- Abrir el GIT BASH dentro de la carpeta repositorio "Professional-Slider_Hanz77"
+	- crear una nueva rama "Develop" Aqui es donde trabajaremos y al final fusionaremos 
+	  sus cambios en la MASTER
+		git status
+		git branch Develop
+		git log --oneline
+		git checkout Develop
+
+	COMMITS
+		1.	Initial commit (Por Defecto)
+		2.	Todos los ficheros del Proyecto SLIDER han sido añadidos al repositorio.
+		3.	Iconos Fuentes de la pagina ICO MOON.
+
+	NOTAS:
+		Nose pueden agregar archivos comprimidos (ZIP)
