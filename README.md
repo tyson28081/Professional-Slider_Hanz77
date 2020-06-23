@@ -3,7 +3,7 @@ Esto es un Slider profesional en un ámbito funcional, tiene sus botones de sigu
 Y por ultimo debo agregar que cuando se de PAUSE al Slider, habrá un tiempo corriendo externo que cuando llegue a un limite el Slider volverá a iniciar.
 
 <br>
-<img src="images/ropa-niños.jpg" width="200">
+<img src="images/ropa-niños.jpg" width="200"> <img src="images/ramas-violetas.jpg" width="200"> <img src="images/halloween-niños2.jpg" width="200">
 <br>
 
 tyson_77newday@hotmail.com
