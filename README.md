@@ -6,7 +6,7 @@ tyson_77newday@hotmail.com
 
 +51 970967059    whatsapp
 
-Ritter77     	don't speack english
+Ritter77 :virgo:    	don't speack english
 
 Otros Proyectos:
 	http://www.colinaazul.tk/
