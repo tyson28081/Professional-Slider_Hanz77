@@ -9,7 +9,7 @@ https://tyson28081.github.io/Professional-Slider_Hanz77/
 
 tyson_77newday@hotmail.com
 
-**+51** 970967059    *whatsapp*
+<strong>+</strong>51 970967059    *whatsapp*
 
 **Ritter77** :virgo:    *don't speack english*
 
