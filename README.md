@@ -4,14 +4,14 @@ Y por ultimo debo agregar que cuando se de PAUSE al Slider, habrá un tiempo cor
 
 <img src="images/ropa-niños.jpg" width="200" height="134"> <img src="images/ramas-violetas.jpg" width="200" height="134"> <img src="images/halloween-niños2.jpg" width="200" height="134">
 
-<strong>Pagina Web</strong><br>
+***Pagina Web***<br>
 https://tyson28081.github.io/Professional-Slider_Hanz77/
 
 tyson_77newday@hotmail.com
 
 +51 970967059    whatsapp
 
-Ritter77 :virgo:    	don't speack english
+**Ritter77** :virgo:    	*don't speack english*
 
 Otros Proyectos:
 	http://www.colinaazul.tk/
