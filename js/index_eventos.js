@@ -132,7 +132,7 @@
 				}
 			}
 		});
-		$(window).mouseenter(function(){
+		/*$(window).mouseenter(function(){
 			if (Wind_blur == 1 && Counter_runTime == 0) {
 				if (ProgressAni_Status == "pause") {
 
@@ -142,7 +142,7 @@
 
 				}
 			}
-		});
+		});*/
 
 		//--------------- PROYECTO SLIDER DE IMAGENES Y BARRA DE PROGRESO ---------------
 
