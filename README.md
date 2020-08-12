@@ -13,7 +13,7 @@ tyson_77newday@hotmail.com
 
 **Ritter77** :virgo:    *I speack english too*
 
-Otros Proyectos:
+Other Projects:
 	http://www.colinaazul.tk/
 
 
